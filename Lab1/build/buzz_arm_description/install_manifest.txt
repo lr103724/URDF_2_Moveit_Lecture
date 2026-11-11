@@ -1,0 +1,14 @@
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/urdf/buzz_arm.urdf
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_LFinger.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_1.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_2.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_RFinger.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_4.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_3.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/base_link.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_5.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_RFinger.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_LFinger.STL
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/config/joint_names.yaml
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/launch/display.launch.py
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/rviz/display.rviz

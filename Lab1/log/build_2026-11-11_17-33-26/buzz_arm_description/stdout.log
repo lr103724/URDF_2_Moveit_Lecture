@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description
+-- Install configuration: ""
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/urdf
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/urdf/buzz_arm.urdf
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_LFinger.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_1.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_2.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_RFinger.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_4.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_3.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/base_link.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_5.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_RFinger.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_LFinger.STL
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/config
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/config/joint_names.yaml
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/launch
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/launch/display.launch.py
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/rviz
+-- Installing: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/rviz/display.rviz
+-- Execute custom install script
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/package_run_dependencies/buzz_arm_description
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/parent_prefix_path/buzz_arm_description
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.sh
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.dsv
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.bash
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.sh
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.zsh
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.dsv
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.dsv
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/packages/buzz_arm_description
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig.cmake
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig-version.cmake
+-- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.xml

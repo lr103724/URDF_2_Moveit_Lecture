@@ -1,0 +1,15 @@
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/package_run_dependencies/buzz_arm_description
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/parent_prefix_path/buzz_arm_description
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.sh
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.dsv
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.sh
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.dsv
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.bash
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.sh
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.zsh
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.dsv
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.dsv
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/packages/buzz_arm_description
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig.cmake
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig-version.cmake
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.xml
