@@ -1,0 +1,40 @@
+[0.028s] Invoking command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description -- -j16 -l16
+[0.270s] Invoked command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description -- -j16 -l16
+[0.286s] Invoking command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description
+[0.298s] -- Install configuration: ""
+[0.298s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/urdf
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/urdf/buzz_arm.urdf
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_LFinger.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_1.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_2.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_RFinger.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_4.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_3.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/base_link.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Link_5.STL
+[0.299s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_RFinger.STL
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/meshes/Joint_LFinger.STL
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/config
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/config/joint_names.yaml
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/launch
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/launch/display.launch.py
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/rviz
+[0.300s] -- Up-to-date: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/rviz/display.rviz
+[0.300s] -- Execute custom install script
+[0.301s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/package_run_dependencies/buzz_arm_description
+[0.301s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/parent_prefix_path/buzz_arm_description
+[0.302s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.sh
+[0.303s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/ament_prefix_path.dsv
+[0.304s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.sh
+[0.304s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/environment/path.dsv
+[0.304s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.bash
+[0.305s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.sh
+[0.305s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.zsh
+[0.306s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/local_setup.dsv
+[0.306s] -- Symlinking: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.dsv
+[0.319s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/ament_index/resource_index/packages/buzz_arm_description
+[0.320s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig.cmake
+[0.320s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/cmake/buzz_arm_descriptionConfig-version.cmake
+[0.321s] -- Up-to-date symlink: /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_description/share/buzz_arm_description/package.xml
+[0.325s] Invoked command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description

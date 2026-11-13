@@ -29,6 +29,7 @@
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/kinematics.yaml
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/moveit.rviz
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/moveit_controllers.yaml
+/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/ompl_planning.yaml
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/pilz_cartesian_limits.yaml
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/config/ros2_controllers.yaml
 /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_moveit_config/share/buzz_arm_moveit_config/.setup_assistant

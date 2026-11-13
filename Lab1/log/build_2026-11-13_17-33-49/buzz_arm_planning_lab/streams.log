@@ -1,0 +1,19 @@
+[1.309s] Invoking command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab/build --no-deps symlink_data
+[1.678s] running develop
+[1.924s] running egg_info
+[1.947s] writing buzz_arm_planning_lab.egg-info/PKG-INFO
+[1.947s] writing dependency_links to buzz_arm_planning_lab.egg-info/dependency_links.txt
+[1.947s] writing entry points to buzz_arm_planning_lab.egg-info/entry_points.txt
+[1.948s] writing requirements to buzz_arm_planning_lab.egg-info/requires.txt
+[1.948s] writing top-level names to buzz_arm_planning_lab.egg-info/top_level.txt
+[1.994s] reading manifest file 'buzz_arm_planning_lab.egg-info/SOURCES.txt'
+[1.995s] writing manifest file 'buzz_arm_planning_lab.egg-info/SOURCES.txt'
+[2.019s] running build_ext
+[2.019s] Creating /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/python3.12/site-packages/buzz-arm-planning-lab.egg-link (link to .)
+[2.020s] Installing plan_benchmark script to /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/buzz_arm_planning_lab
+[2.020s] Installing plot_results script to /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/buzz_arm_planning_lab
+[2.020s] Installing scene_objects script to /home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/buzz_arm_planning_lab
+[2.021s] 
+[2.021s] Installed /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab
+[2.021s] running symlink_data
+[2.049s] Invoked command in '/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/exouser/URDF_2_Moveit_Lecture/Lab1/install/buzz_arm_planning_lab/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_planning_lab/build --no-deps symlink_data

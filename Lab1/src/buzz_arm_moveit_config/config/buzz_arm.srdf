@@ -82,4 +82,11 @@
     <disable_collisions link1="Link_5" link2="base_link" reason="Default"/>
     <disable_collisions link1="Link_LFinger" link2="Link_RFinger" reason="Never"/>
     <disable_collisions link1="base_link" link2="floor" reason="Adjacent"/>
+    <group_state name="reach_low" group="arm">
+        <joint name="Revolute_1" value="0.0"/>
+        <joint name="Revolute_2" value="2.6"/>
+        <joint name="Revolute_3" value="1.55334"/>
+        <joint name="Revolute_4" value="1.58825"/>
+        <joint name="Revolute_5" value="1.50098"/>
+    </group_state>
 </robot>
