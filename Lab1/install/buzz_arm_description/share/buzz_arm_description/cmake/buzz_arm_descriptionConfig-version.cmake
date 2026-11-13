@@ -1,1 +1,0 @@
-/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_description/ament_cmake_core/buzz_arm_descriptionConfig-version.cmake

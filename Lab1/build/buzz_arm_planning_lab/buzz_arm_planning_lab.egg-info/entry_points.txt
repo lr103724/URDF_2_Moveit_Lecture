@@ -1,4 +1,0 @@
-[console_scripts]
-plan_benchmark = buzz_arm_planning_lab.plan_benchmark:main
-plot_results = buzz_arm_planning_lab.plot_results:main
-scene_objects = buzz_arm_planning_lab.scene_objects:main

@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: buzz-arm-planning-lab
-Version: 0.1.0
-Summary: Part 2 lab tools: benchmark OMPL planners through move_group and load obstacle scenes.
-Maintainer: Chris Santillan
-Maintainer-email: csb1@iastate.edu
-License: MIT

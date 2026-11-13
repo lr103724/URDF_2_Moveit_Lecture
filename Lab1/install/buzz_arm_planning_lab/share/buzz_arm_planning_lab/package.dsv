@@ -1,9 +1,0 @@
-source;share/buzz_arm_planning_lab/hook/pythonpath.ps1
-source;share/buzz_arm_planning_lab/hook/pythonpath.dsv
-source;share/buzz_arm_planning_lab/hook/pythonpath.sh
-source;share/buzz_arm_planning_lab/hook/ament_prefix_path.ps1
-source;share/buzz_arm_planning_lab/hook/ament_prefix_path.dsv
-source;share/buzz_arm_planning_lab/hook/ament_prefix_path.sh
-source;../../build/buzz_arm_planning_lab/share/buzz_arm_planning_lab/hook/pythonpath_develop.ps1
-source;../../build/buzz_arm_planning_lab/share/buzz_arm_planning_lab/hook/pythonpath_develop.dsv
-source;../../build/buzz_arm_planning_lab/share/buzz_arm_planning_lab/hook/pythonpath_develop.sh

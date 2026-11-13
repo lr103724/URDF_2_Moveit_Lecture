@@ -1,1 +1,0 @@
-/home/exouser/URDF_2_Moveit_Lecture/Lab1/build/buzz_arm_moveit_config/ament_cmake_environment_hooks/local_setup.bash
