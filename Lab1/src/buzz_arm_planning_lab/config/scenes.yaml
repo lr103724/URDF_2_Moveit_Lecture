@@ -33,7 +33,7 @@ scenes:
   bar:
     - id: bar
       size: [0.04, 0.30, 0.04]
-      xyz: [0.26, 0.05, 0.33]
+      xyz: [0.26, 0.05, 0.15]
 
   # The bar raised, plus a ceiling just above the home pose. Going over is
   # no longer possible, so every solution has to fold under the bar.
