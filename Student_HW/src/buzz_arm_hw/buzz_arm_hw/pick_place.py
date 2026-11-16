@@ -192,12 +192,26 @@ class PickPlace(Benchmark):
         print("        planner: block detached and forgotten" if ok else "        planner: detach FAILED")
 
 
-def run_step(node: PickPlace, step: str) -> int:
+def run_step(node: PickPlace, step: str, planner_attach: bool = True) -> int:
+    # Wait for the arm to stop moving before every step. Without this the
+    # next plan starts from where the arm was told to be, the controller
+    # sees it is not there yet, and execution fails with CONTROL_FAILED
+    # ("start point deviates from current robot state more than 0.01").
+    # Waiting before attach also matters: welding while the gripper is
+    # still moving locks the block in at an angle.
+    settled, waited, joint, vel = node.wait_until_still()
+    if not settled:
+        print(f"        warning: not still after {waited:.1f} s ({joint} at {vel:.3f} rad/s)")
+
     if step == "attach":
         node.gazebo_attach()
+        if planner_attach:
+            node.planner_attach()
         return MoveItErrorCodes.SUCCESS
     if step == "detach":
         node.gazebo_detach()
+        if planner_attach:
+            node.planner_detach()
         return MoveItErrorCodes.SUCCESS
     kind, pose_name = (s.strip() for s in step.split(":", 1))
     return node.move(GROUPS[kind], pose_name)
@@ -207,6 +221,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--list", action="store_true", help="Print the steps and exit.")
     parser.add_argument("--start-at", type=int, default=1, metavar="N", help="Begin at step N (1-based).")
+    parser.add_argument("--no-planner-attach", action="store_true",
+                        help="Weld the block in Gazebo only; do not tell MoveIt (the section 4 'before' run).")
     args = parser.parse_args(argv)
 
     if args.list:
@@ -221,7 +237,12 @@ def main(argv=None):
             if i < args.start_at:
                 continue
             print(f"[{i:2d}/{len(STEPS)}] {step}")
-            run_step(node, step)
+            code = run_step(node, step, planner_attach=not args.no_planner_attach)
+            if code != MoveItErrorCodes.SUCCESS:
+                # Stop at the first failure. Carrying on would, for example,
+                # detach a block that was never picked up.
+                print(f"STOPPED at step {i} ({step}): {ERROR_NAMES.get(code, code)}")
+                sys.exit(1)
         print("done")
     finally:
         node.destroy_node()
