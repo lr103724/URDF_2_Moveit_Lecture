@@ -223,8 +223,6 @@ def main(argv=None):
     parser.add_argument("--start-at", type=int, default=1, metavar="N", help="Begin at step N (1-based).")
     parser.add_argument("--no-planner-attach", action="store_true",
                         help="Weld the block in Gazebo only; do not tell MoveIt (the section 4 'before' run).")
-    parser.add_argument("--no-planner-attach", action="store_true",
-                        help="Weld the block in Gazebo only; do not tell MoveIt (the section 4 'before' run).")
     args = parser.parse_args(argv)
 
     if args.list:
